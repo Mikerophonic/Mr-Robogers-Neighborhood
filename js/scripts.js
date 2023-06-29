@@ -41,10 +41,13 @@ function beepBoop(input) {
 }
 
 window.onload = function() {
+
     const input = document.querySelector("input").value;
     const button = document.querySelector("button");
     const resultDiv = document.getElementById("result");
+    const img = document.querySelector("img");
     button.onclick = function() {
         resultDiv.innerHTML = beepBoop(input);
+        img.removeAttribute("class")
     }
 }

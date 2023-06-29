@@ -1,0 +1,13 @@
+body {
+    margin: 50px;
+}
+
+img {
+    float: right;
+    height: 400px;
+    margin-right:150px;
+}
+
+.hidden {
+    display: none
+}
