@@ -18,6 +18,17 @@ function beepBoop(input) {
     for (let i = 0; i <= number; i++) {
         countArray.push(i)
     }
-    return countArray
+    
+    const stringArray = countArray.map(String);
 
+    let newArray = [];
+
+    stringArray.forEach(function(num) {
+        if (num.includes("1")) {
+            num = "Beep"
+        }
+        newArray.push(num)
+    })
+
+    return newArray;
 }
