@@ -36,12 +36,12 @@ function beepBoop(input) {
         newArray.push(num)
     })
     
-    let result = newArray.join("<br>");
+    let result = newArray.join("<br>   ");
     return result;
 }
 
 window.onload = function() {
-    
+
     const button = document.getElementById("goBtn");
     const resetBtn = document.getElementById("resetBtn");
     const resultDiv = document.getElementById("result");
@@ -52,5 +52,6 @@ window.onload = function() {
     }
     resetBtn.onclick = function() {
         window.location.reload();
+        document.querySelector("input").value = "";
     }
 }

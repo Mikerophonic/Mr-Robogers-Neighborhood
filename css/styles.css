@@ -9,7 +9,7 @@ body {
 img {
     float: right;
     height: 400px;
-    margin-right:150px;
+    margin-right:200px;
 }
 
 .hidden {
@@ -17,5 +17,8 @@ img {
 }
 
 div {
-    color: white
+    color: white;
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 20%;
+    margin-left: 200px;
 }
