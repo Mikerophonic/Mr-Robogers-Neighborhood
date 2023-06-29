@@ -13,12 +13,11 @@ function beepBoop(input) {
         return "Please enter a positive number."
     }
 
-
     let countArray = [];
 
     for (let i = 0; i <= number; i++) {
-
+        countArray.push(i)
     }
-
+    return countArray
 
 }
