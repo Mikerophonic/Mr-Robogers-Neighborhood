@@ -24,8 +24,14 @@ function beepBoop(input) {
     let newArray = [];
 
     stringArray.forEach(function(num) {
-        if (num.includes("1")) {
-            num = "Beep"
+        if (num.includes("3")) {
+            num = "Won't you be my neighbor?"
+        }
+        else if (num.includes("2")) {
+            num = "Boop!"
+        }
+        else if (num.includes("1")) {
+            num = "Beep!"
         }
         newArray.push(num)
     })
