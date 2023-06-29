@@ -4,17 +4,17 @@ function beepBoop(input) {
     }
     
     const number = Number(input);
-
+    
     if (isNaN(number) === true) {
         return "Please enter a number."
     }
-
+    
     if (number < 0) {
         return "Please enter a positive number."
     }
-
-    let countArray = [];
-
+    
+    let countArray = []
+    
     for (let i = 0; i <= number; i++) {
         countArray.push(i)
     }
@@ -35,6 +35,16 @@ function beepBoop(input) {
         }
         newArray.push(num)
     })
+    
+    let result = newArray.join("<br>");
+    return result;
+}
 
-    return newArray;
+window.onload = function() {
+    const input = document.querySelector("input").value;
+    const button = document.querySelector("button");
+    const resultDiv = document.getElementById("result");
+    button.onclick = function() {
+        resultDiv.innerHTML = beepBoop(input);
+    }
 }
