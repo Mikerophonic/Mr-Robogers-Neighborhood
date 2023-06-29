@@ -41,13 +41,16 @@ function beepBoop(input) {
 }
 
 window.onload = function() {
-
-    const input = document.querySelector("input").value;
-    const button = document.querySelector("button");
+    
+    const button = document.getElementById("goBtn");
+    const resetBtn = document.getElementById("resetBtn");
     const resultDiv = document.getElementById("result");
     const img = document.querySelector("img");
     button.onclick = function() {
-        resultDiv.innerHTML = beepBoop(input);
+        resultDiv.innerHTML = beepBoop(document.querySelector("input").value);
         img.removeAttribute("class")
+    }
+    resetBtn.onclick = function() {
+        window.location.reload();
     }
 }
