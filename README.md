@@ -14,16 +14,16 @@
 
 This was created as my third independent project for Epicodus, course section: Arrays and Looping. The goal was to Create a web application that takes a number from the user and returns a list of values from 0 to the user's inputted number with the following substitutions made within the returned list:
 
-*For numbers that contain a 1, all digits are replaced with "Beep!"
-*For numbers that contain a 2, all digits are replaced with "Boop!"
-*For numbers that contain a 3, all digits are replaced with "Won't you be my neighbor?"
+* For numbers that contain a 1, all digits are replaced with "Beep!"
+* For numbers that contain a 2, all digits are replaced with "Boop!"
+* For numbers that contain a 3, all digits are replaced with "Won't you be my neighbor?"
 
 Additionally, I had to:
 
-*Solve this prompt using at least one loop, at least one array, and branching logic.
-*Design the application so that a user is able to enter a new number and see new results over and over again.
-*Remember to return a list of values from 0 to the user's inputter number. This means printing each element in the list to the webpage. 
-*Write tests for your application's business logic. See the section below that covers testing.
+* Solve this prompt using at least one loop, at least one array, and branching logic.
+* Design the application so that a user is able to enter a new number and see new results over and over again.
+* Remember to return a list of values from 0 to the user's inputter number. This means printing each element in the list to the webpage. 
+* Write tests for your application's business logic. See the section below that covers testing.
 
 
 ## Setup/Installation Requirements
@@ -31,7 +31,7 @@ Additionally, I had to:
 * Clone this repository to your local machine: $ git clone https://github.com/Mikerophonic/Mr-Robogers-Neighborhood.git
 * Open index.html in a web browser.
 
-[Github Pages - Programming Language Suggester](https://mikerophonic.github.io/Mr-Robogers-Neighborhood)
+[Github Pages - Mister Robogers' Neighborhood](https://mikerophonic.github.io/Mr-Robogers-Neighborhood)
 
 ## Known Bugs
 

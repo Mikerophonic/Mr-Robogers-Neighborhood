@@ -36,7 +36,7 @@ function beepBoop(input) {
         newArray.push(num)
     })
     
-    let result = newArray.join("<br>   ");
+    let result = newArray.join("<br>");
     return result;
 }
 
