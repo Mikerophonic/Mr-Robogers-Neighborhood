@@ -10,6 +10,7 @@ img {
     float: right;
     height: 400px;
     margin-right:200px;
+    filter: drop-shadow(0px 0px 30px rgb(54, 54, 54))
 }
 
 .hidden {
@@ -18,13 +19,16 @@ img {
 
 div {
     color: white;
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: rgba(0, 0, 0, 0.297);
     width: 20%;
     margin-left: 200px;
+    filter: drop-shadow(0px 0px 30px rgb(0, 0, 0));
+    padding: 15px;
+    border-radius: 10px;
 }
 
 h1 {
     font-family: 'Caprasimo', cursive;
     color: rgb(193, 11, 11);
-    filter: drop-shadow(1.5px 1.5px 0px black);
+    filter: drop-shadow(1.5px 1.5px 0px rgb(47, 47, 47));
 }
