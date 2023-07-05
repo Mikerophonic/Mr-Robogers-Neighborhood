@@ -33,7 +33,7 @@ function beepBoop(input) {
         else if (num.includes("1")) {
             num = "Beep!"
         }
-        newArray.push(num)
+        setInterval(newArray.push(num), 1000);
     })
     
     let result = newArray.join("<br>");
