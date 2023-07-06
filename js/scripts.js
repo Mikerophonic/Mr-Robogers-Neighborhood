@@ -33,7 +33,7 @@ function beepBoop(input) {
         else if (num.includes("1")) {
             num = "Beep!"
         }
-        setInterval(newArray.push(num), 1000);
+        newArray.push(num)
     })
     
     let result = newArray.join("<br>");
@@ -48,7 +48,8 @@ window.onload = function() {
     const img = document.querySelector("img");
     button.onclick = function() {
         resultDiv.innerHTML = beepBoop(document.querySelector("input").value);
-        img.removeAttribute("class")
+        img.removeAttribute("class");
+        resultDiv.removeAttribute("class");
     }
     resetBtn.onclick = function() {
         window.location.reload();
